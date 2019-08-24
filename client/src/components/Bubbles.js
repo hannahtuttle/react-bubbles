@@ -10,6 +10,7 @@ const Bubbles = ({ colors }) => {
       key: `${i + 1}`
     }));
     setBubbleData(generateBubbleData);
+    //console.log('bubbleData', bubbleData)
   }, [colors]);
 
   return (
